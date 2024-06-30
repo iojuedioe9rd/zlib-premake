@@ -6,9 +6,10 @@ project "zlib"
 
 	files
 	{
-		"**.h",
-		"**.c"
+		"*.h",
+		"*.c"
 	}
+	
 
 	filter "system:windows"
 		defines { "_WINDOWS" }
